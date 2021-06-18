@@ -8,7 +8,7 @@
     <artifactId>docker-spring-boot</artifactId>
     <version>1.0</version>
 
-    <name>docker-spring-boot</name>
+    <name>api-rates</name>
     <url></url>
 
     <parent>
@@ -39,6 +39,11 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.jsoup</groupId>
+            <artifactId>jsoup</artifactId>
+            <version>1.13.1</version>
+        </dependency>
 
         <!-- debugging -->
         <dependency>
@@ -50,7 +55,7 @@
 
     <build>
 
-        <finalName>spring-boot-web</finalName>
+        <finalName>api-rates</finalName>
 
         <plugins>
             <plugin>
